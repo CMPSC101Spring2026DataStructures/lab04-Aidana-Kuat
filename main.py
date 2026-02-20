@@ -3,7 +3,6 @@
 # Name: Aidana
 # Date: 02/20/2026
 
-import random
 
 """
 main.py
@@ -13,22 +12,12 @@ This script allows a user to play a 3-round game of Rock, Paper, Scissors agains
 It uses the 'rich' library for colorful output.
 """
 
+
+# Create a Console object for rich outp
+
 import random
 from rich.console import Console
 from rich.text import Text
-
-# Create a Console object for rich output
-console = Console()
-"""
-main.py (Starter Template)
--------------------------
-Rock Paper Scissors game for CS101 Fall 2025 Lab 02.
-
-Complete the TO-DOs to finish the game!
-"""
-
-import random
-from rich.console import Console
 
 console = Console()
 
